@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,gBAAgB,EAAE,KAAK;CAC1B",
+    "sources": [
+        "../mi_repositorio/scss/base.scss"
+    ],
+    "names": [],
+    "file": "base.css"
+}

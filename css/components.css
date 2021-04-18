@@ -1,0 +1,95 @@
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 1.7em;
+  flex: auto;
+  list-style: none;
+  padding-bottom: 3em;
+  font-weight: bolder;
+  padding-right: 1em;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu {
+    padding-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .menu {
+    padding-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    padding-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    padding-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .menu {
+    padding-bottom: 1em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .menu {
+    padding-bottom: 1em;
+  }
+}
+
+.menu .menu_item .item {
+  background-image: linear-gradient(to right, #4b3621, #7B3F00);
+  padding-left: .5em;
+  color: white;
+  display: flex;
+  text-decoration: none;
+  flex: auto;
+  justify-content: flex-end;
+  padding-right: .5em;
+  animation-name: cambio_menu;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu .menu_item .item {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .menu .menu_item .item {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu .menu_item .item {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu .menu_item .item {
+    font-size: 20%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .menu .menu_item .item {
+    font-size: 20%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .menu .menu_item .item {
+    font-size: 20%;
+  }
+}
